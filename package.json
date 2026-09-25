@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codewars",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Codewars MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-616eaa82f04b10545c9507103e83515922aea7384bb5cdf3b1796ce3fb18b0c0",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-909e81411aefe7a96750b7a5d4432e3bdb02706ffb231b5c454893b9ce21399b",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
