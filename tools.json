@@ -1,0 +1,65 @@
+[
+  {
+    "name": "user",
+    "description": "Fetch a Codewars user's public profile by username: honor, clan, leaderboard rank, overall language ranks, and skills.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "user_completed",
+    "description": "List completed kata (coding challenges) for a Codewars username, paginated; returns kata ID, slug, name, completion time, and languages used.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "page": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "user_authored",
+    "description": "List kata authored by a Codewars username; returns each kata's ID, slug, name, rank, tags, and languages it supports.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "kata",
+    "description": "Fetch a single Codewars kata by ID or slug; returns name, description, rank (kyu), tags, languages, approval status, total completions, and satisfaction rating.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id_or_slug": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id_or_slug"
+      ]
+    }
+  }
+]
